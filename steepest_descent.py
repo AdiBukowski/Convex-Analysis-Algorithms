@@ -45,7 +45,7 @@ def lagrange_multiplier(f,h,s,beta,sigma,n):
     return(x)
 
 f = 'x1^2+x2^2+x3^2'
-h= ['x1+x2+x3-1']    
+h= ['x1+x2-1','x3-1']    
 lagrange_multiplier(f,h,1,0.9,0.001,11)
     
 
